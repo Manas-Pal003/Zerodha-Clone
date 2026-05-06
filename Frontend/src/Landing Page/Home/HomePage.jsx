@@ -1,5 +1,5 @@
 
-import Navbar from "./Navbar";
+import Navbar from "../../Components/Navbar";
 import Home from "./Home";
 import Stats from "./Stats";
 import Education from "./Education";
@@ -8,12 +8,11 @@ import Bottom from "./Bottom";
 const HomePage = () => {
   return (
     <div>
-        <Navbar />
-        <Home />
-        <Stats />
-        <Pricing />
-        <Education />
-        <Bottom />
+      <Home />
+      <Stats />
+      <Pricing />
+      <Education />
+      <Bottom />
     </div>
   )
 }
