@@ -5,6 +5,7 @@ import Stats from "./Stats";
 import Education from "./Education";
 import Pricing from "./Pricing";
 import Bottom from "./Bottom";
+
 const HomePage = () => {
   return (
     <div>

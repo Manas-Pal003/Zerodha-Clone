@@ -5,7 +5,7 @@ import stocks from "../../assets/StocksImage.avif"
 const Investment = () => {
   return (
     <div className="flex flex-col items-center ml-30 mr-30 flex justify-center">
-      <h1 className="text-3xl font-medium mt-10 ml-30">
+      <h1 className="text-3xl font-medium mt-10 ml-30 mb-15">
         Investment options with Zerodha demat account
       </h1>
       <div className="flex flex-row items-center justify-center">

@@ -1,8 +1,15 @@
-import React from 'react'
+
+import HeroSection from './HeroSection'
+import People from './People'
+import Image from './Image'
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <div className='w-[60%] mx-auto'>
+      <HeroSection />
+      <People />
+      <Image />
+    </div>
   )
 }
 

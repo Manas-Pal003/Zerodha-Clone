@@ -1,8 +1,13 @@
 import React from 'react'
+import HeroSection from './HeroSection'
+import Charge from './Charge'
 
 const PricingPage = () => {
   return (
-    <div>PricingPage</div>
+    <div>
+      <HeroSection />
+      <Charge />
+    </div>
   )
 }
 
