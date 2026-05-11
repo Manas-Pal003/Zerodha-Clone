@@ -1,8 +1,12 @@
-import React from 'react'
+import Front from './Front'
+import Bottom from './Bottom'
 
 const SupportPage = () => {
   return (
-    <div>SupportPage</div>
+    <>
+      <Front />
+      <Bottom />
+    </>
   )
 }
 

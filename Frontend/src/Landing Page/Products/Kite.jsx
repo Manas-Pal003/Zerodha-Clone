@@ -7,7 +7,9 @@ const Kite = () => {
   return (
     <div className='flex flex-row justify-center items-center border-t border-gray-300 w-[60%] mx-auto my-0 py-20'>
         <div className='flex flex-col'>
+          <Link to="https://zerodha.com/products/kite" target="_blank">
             <img className='w-[558px] h-[421px] max-w-full' src={kite} alt="kite" />
+          </Link>
         </div>
         <div className='flex flex-col  gap-3 w-1/2 pl-40 '>
             <h2 className='text-2xl font-semibold mb-5'>Kite</h2>

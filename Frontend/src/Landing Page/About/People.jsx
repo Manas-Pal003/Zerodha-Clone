@@ -4,7 +4,7 @@ import founder from '../../assets/nithinKamath.jpg'
 const People = () => {
   return (
     <div className='flex flex-row justify-center   gap-10 '>
-        <h1 className='text-2xl mx-auto   font-medium'>People</h1>
+        <h1 className=' text-center text-2xl  font-medium'>People</h1>
         <div className='flex justify-center items-center flex-col'>
             <img src={founder} alt='founder' className='w-80 h-80 rounded-full mb-5'/>
             <h2 className='font-medium text-lg'>Nithin Kamath</h2>
