@@ -98,7 +98,7 @@ const Bottom = () => {
                             {openSections[section.id] ? section.openIcon : section.icon}
                             </div>
                         </div>
-                        <h3 className='px-6 text-[17px] text-[#424242]'>{section.title}</h3>
+                        <h3 className='px-6 text-[18px] text-[#424242]'>{section.title}</h3>
                     </div>
                     <div className='px-6'>
                         {openSections[section.id] ? (
@@ -115,7 +115,7 @@ const Bottom = () => {
                         <ul className='list-disc list-outside text-[#387ed1] space-y-4 ml-4 marker:text-[#387ed1]'>
                             {section.links.map((link, idx) => (
                             <li key={idx}>
-                                <a href={link.url} className='text-[#387ed1] hover:text-gray-800 transition-colors text-[15px]'>{link.text}</a>
+                                <a href={link.url} className='text-[#387ed1] hover:text-gray-800 transition-colors text-[18px]'>{link.text}</a>
                             </li>
                             ))}
                         </ul>
