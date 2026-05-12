@@ -83,8 +83,8 @@ const Bottom = () => {
   };
 
   return (
-    <div className='w-[65%] m-auto mt-10 mb-20 gap-10 flex flex-row'>
-        <div className='w-[75%] border border-gray-100 bg-white flex flex-col gap-5'>
+    <div className='w-[65%] m-auto mt-10 mb-20 gap-10 flex flex-row '>
+        <div className='w-[75%] border border-gray-100 bg-white flex flex-col gap-5 font-medium'>
             {sections.map((section) => (
             <div key={section.id} className='bg-white'>
                 {/* Accordion Header */}
@@ -124,7 +124,7 @@ const Bottom = () => {
             </div>
             ))}
         </div>
-        <div className='w-[25%] border border-gray-100 flex flex-col'>
+        <div className='w-[25%] border border-gray-100 flex flex-col text-[20px]'>
             <table className='w-full border border-gray-100  border-collapse text-left'>
                 <thead>
                     <tr className='border-b border-gray-100'>
@@ -134,31 +134,31 @@ const Bottom = () => {
                 <tbody>
                     <tr className='border-b border-gray-100'>
                         <td className='py-4 px-4 text-gray-600'>
-                            <Link to="https://zerodha.com/open-account" className='text-[#387ed1] hover:text-gray-800 transition-colors text-[18px]'>
+                            <Link to="https://zerodha.com/open-account" className='text-[#387ed1] hover:text-gray-800 transition-colors'>
                             1. Track account opening</Link>
                         </td>
                     </tr>
                     <tr className='border-b border-gray-100'>
                         <td className='py-4 px-4 text-gray-600'>
-                            <Link to="https://kite.zerodha.com/connect/login?api_key=console&sess_id=2bjcgNoL9SNGw9lJUFiRnQlgneoeKsR1" className='text-[#387ed1] hover:text-gray-800 transition-colors text-[15px]'>
+                            <Link to="https://kite.zerodha.com/connect/login?api_key=console&sess_id=2bjcgNoL9SNGw9lJUFiRnQlgneoeKsR1" className='text-[#387ed1] hover:text-gray-800 transition-colors'>
                             2. Track segment activation</Link>
                         </td>
                     </tr>
                     <tr className='border-b border-gray-100'>
                         <td className='py-4 px-4 text-gray-600'>
-                            <Link to="https://zerodha.com/marketintel/bulletin/249809/latest-intraday-leverages-mis-bo-co" className='text-[#387ed1] hover:text-gray-800 transition-colors text-[15px]'>
+                            <Link to="https://zerodha.com/marketintel/bulletin/249809/latest-intraday-leverages-mis-bo-co" className='text-[#387ed1] hover:text-gray-800 transition-colors'>
                             3. Intraday margins</Link>
                         </td>
                     </tr>
                     <tr className='border-b border-gray-100'>
                         <td className='py-4 px-4 text-gray-600'>
-                            <Link to="https://kite.trade/docs/kite/" className='text-[#387ed1] hover:text-gray-800 transition-colors text-[15px]'>
+                            <Link to="https://kite.trade/docs/kite/" className='text-[#387ed1] hover:text-gray-800 transition-colors'>
                             4. Kite user manual</Link>
                         </td>
                     </tr>
                     <tr className='border-b border-gray-100'>
                         <td className='py-4 px-4 text-gray-600'>
-                            <Link to="https://support.zerodha.com/category/your-zerodha-account/your-profile/ticket-creation/articles/how-do-i-create-a-ticket-at-zerodha" className='text-[#387ed1] hover:text-gray-800 transition-colors text-[15px]'>
+                            <Link to="https://support.zerodha.com/category/your-zerodha-account/your-profile/ticket-creation/articles/how-do-i-create-a-ticket-at-zerodha" className='text-[#387ed1] hover:text-gray-800 transition-colors'>
                             5. Learn how to create a ticket</Link>
                         </td>
                     </tr>

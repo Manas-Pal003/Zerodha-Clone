@@ -29,7 +29,9 @@ const Stats = () => {
         </p>
       </div>
       <div className="flex flex-col">
+        <Link to="/products">
         <img src={ecosystem} className="w-[80%] mx-auto mt-10" />
+        </Link>
         <div className='flex gap-2 ml-15'>
         <Link to="/products" className='text-blue-500 text-md font-medium mt-2 mx-auto'>Explore our products →</Link>
         <Link to="https://kite-demo.zerodha.com/dashboard" className='text-blue-500 text-md font-medium mt-2 mx-auto'>Try kite demo →</Link>

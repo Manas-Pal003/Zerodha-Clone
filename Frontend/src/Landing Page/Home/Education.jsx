@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom'
 import education from '../../assets/education.svg'
 const Education = () => {
   return (
-    <div className="flex flex-row mx-auto w-[65%] mt-20">
-      <img src={education} alt="education" className="w-[40%] mx-auto" />
+    <div className="flex flex-row mx-auto w-[65%] mt-20 gap-20">
+      <Link to="https://zerodha.com/varsity/">
+      <img src={education} alt="education" className="w-[80%] mx-auto mt-10" />
+      </Link>
       <div className="flex flex-col w-[50%] justify-center">
         <h2 className="text-xl font-medium mb-6">Free and open market education</h2>
         <p className="text-gray-700">
